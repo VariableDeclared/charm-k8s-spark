@@ -1,0 +1,15 @@
+# Copyright 2021 pjds
+# See LICENSE file for licensing details.
+#
+# This is only an example, and you should edit to suit your needs.
+# If you don't need config, you can remove the file entirely.
+options:
+  thing:
+    default: 🎁
+    description: A thing used by the charm.
+    type: string
+
+  image:
+    default: docker.io/bitnami/spark:3.0.1-debian-10-r115
+    description: The OCI image to use.
+    type: string
